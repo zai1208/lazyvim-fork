@@ -3,5 +3,5 @@ return {
   dependencies = {
     "nvim-treesitter/nvim-treesitter",
   },
-  opts = { dynamic = false },
+  opts = { dynamic = false, hide_on_insert = false },
 }
